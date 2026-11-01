@@ -1,0 +1,268 @@
+{
+  "camera_split_sha256": "5d65707544cdafe9ae2208ca745623e4b1713c13a5e363ba902800963510f9fb",
+  "experiment_id": "five_categories_camera_balanced_v2",
+  "protocol_sha256": "c2dd4abab6d3ffa1bad287dc84d808ab6b54c36dc5ed1d79b4dc8ac86259966b",
+  "ready_manifest_sha256": "88cbfab4f50c23796949d17a15a5eea8fdbd8609fe4d24cb8e3dfd34f88a361f",
+  "runs": [
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "2f300227184123de8a615267dbb34a22399dd84448d3d206e3026d0363d4867b",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "093f797416bda28bab61558b5353fa0958df9395611fa0d463ccd68f15ac3f06"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "2094505398ecfec2aaf50027de6d05dbda0d2034b9f74718be62984fc7bb9a48"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "629cbff7972ec717420ee0b41926cdd443377cbbeb8a5b9638179cbf1837e15f"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "a6432ef4dd63008923dd039193d741200cddc2f8ffaa6a3d91c84e7ed71903eb",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "53ea981aeff3171f90caf855995da1c18e418c251325740989c78ef9f4ef65fb"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "6e6b85daa4a88f6a050a6912982f495324bcdd431e2b5751f4194aacafa23fd1"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "4b5232ec5581d4d57795e2ca4a527bd8d42025997f0d4baad3554edef9c74bde"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "head"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "5727173c2c3f7f494b56b62a8a27e72fd9bf7a82013d762131d495d50e42e8e4",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "7ac3795671b9444c8bc7c21ebedbd607309e45ee9a4d2c5db9395fd4422acd3e"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "d6b2842ee76af3118837fc48771fc7e3d561d7e07b6fabc70d28bd7ee34c5b4f"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1ae6482fc1ccdf8729097aa9725677d1596cf1c91cab203c69ea4fc605676efa"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 123,
+      "selected_epoch": 5,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "82a3ea96be0af1721ed12f0e0b11069693656397cbd0367d33268434e47504fd",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "0b76327a5f31aed47bc72f112254d6d4b645cb6e33db8e20670c0e96abdca1f2"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "d6dc995fa3fe4329ce8220752534a6118ce23e3b9b9657ec420dd3b1198b6a38"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1c7b5e1d99e3946638e58d607d014b1c079fadb42869c880c7b0caf16514b93b"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 123,
+      "selected_epoch": 4,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "4e252156de470912ced37e18b2c65fbe417bb2e9bdba923b1878f496fa339863",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "5cb066420be2362c578e4486b07f28aacc90743ec01a10592b30a4d570695eac"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "90940149be433dcfcc73366bb6265e24b8b935d57b3b8cd5a4aa4d55ba9c6136"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "8df032f1ce2e84e380993004a9a01b24ec2c30e580fa77f3b3f0759cc8ed6ff8"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 2026,
+      "selected_epoch": 2,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "c571a2e873817f5298ce3b06961f6376d0159c1bbd4584971b5833fa6528afa0",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "5ebf00d765b02cf3618c384629bbf957d81d5f2fed368a2ce4c604c8e71ae8e8"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "de55e0ccfa379db0d674f255d77759802eb06f8229c1fa3312a74df318ca8a4b"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "3a9c4d1fcac650c77925cca75f2f2a8e31dda6f020bd965e6c09c0fdab0d7478"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 2026,
+      "selected_epoch": 1,
+      "selected_stage": "finetune"
+    }
+  ],
+  "selection_protocol_sha256": "2efde71bb734eeafe31c29d8d8c65b3c3340216f7bd9bf564f40180b657e6614",
+  "settings": {
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 20261026,
+    "camera_uncertainty_role": "diagnostic_only",
+    "checkpoint_rule": "notebook03 corrected v2 best_selected across head and fine-tuning using event-weighted validation NLL",
+    "ece_bins": 15,
+    "ece_sensitivity_bins": [
+      10,
+      20
+    ],
+    "evaluation_version": 2,
+    "minimum_accepted": 100,
+    "minimum_accepted_cameras": 5,
+    "num_workers": 0,
+    "policy_camera_bootstrap_repeats": 10000,
+    "policy_camera_bootstrap_seed": 20261104,
+    "policy_familywise_alpha": 0.05,
+    "policy_method": "fixed-grid binomial Clopper-Pearson Bonferroni selection; approximate simultaneous camera bootstrap is diagnostic only",
+    "policy_num_policies": 12,
+    "policy_selection_bound": "binomial_bonferroni_ucb_95",
+    "policy_threshold_grid": [
+      0.2,
+      0.21,
+      0.22,
+      0.23,
+      0.24,
+      0.25,
+      0.26,
+      0.27,
+      0.28,
+      0.29,
+      0.3,
+      0.31,
+      0.32,
+      0.33,
+      0.34,
+      0.35,
+      0.36,
+      0.37,
+      0.38,
+      0.39,
+      0.4,
+      0.41,
+      0.42,
+      0.43,
+      0.44,
+      0.45,
+      0.46,
+      0.47,
+      0.48,
+      0.49,
+      0.5,
+      0.51,
+      0.52,
+      0.53,
+      0.54,
+      0.55,
+      0.56,
+      0.57,
+      0.58,
+      0.59,
+      0.6,
+      0.61,
+      0.62,
+      0.63,
+      0.64,
+      0.65,
+      0.66,
+      0.67,
+      0.68,
+      0.69,
+      0.7,
+      0.71,
+      0.72,
+      0.73,
+      0.74,
+      0.75,
+      0.76,
+      0.77,
+      0.78,
+      0.79,
+      0.8,
+      0.81,
+      0.82,
+      0.83,
+      0.84,
+      0.85,
+      0.86,
+      0.87,
+      0.88,
+      0.89,
+      0.9,
+      0.91,
+      0.92,
+      0.93,
+      0.94,
+      0.95,
+      0.96,
+      0.97,
+      0.98,
+      0.99,
+      0.995,
+      0.9975,
+      0.999,
+      0.9995,
+      1.0
+    ],
+    "primary_calibration_gain_metric": "nll",
+    "target_error": 0.05,
+    "temperature_bounds": [
+      0.01,
+      100.0
+    ],
+    "test_batch_size": 4
+  },
+  "subset_sha256": "354af48bc70f501a89490b28f961fe3c20b8a81967ebf966b4a785333cee8676",
+  "training_id": "training_v2_corrected",
+  "training_sha256": "71342e9f1c8029c8c17e30474306ed6a7a68fc1a125ba50f73ff4a0e5e4db0dd",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "pillow": "12.2.0",
+    "python": "3.11.16",
+    "scipy": "1.17.1",
+    "torch": "2.14.0+cu130",
+    "torchvision": "0.29.0+cu130"
+  }
+}
