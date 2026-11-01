@@ -1,0 +1,6 @@
+class_name,train,validation,calibration,policy
+coyote,1200,597,653,611
+deer,1200,406,421,397
+fox,467,65,58,58
+rabbit,1200,372,316,373
+skunk,503,60,52,61

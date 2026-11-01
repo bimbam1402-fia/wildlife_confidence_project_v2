@@ -1,0 +1,6 @@
+split,animal_crop,full_frame_fallback
+train,4377,193
+validation,1330,170
+calibration,1352,148
+policy,1389,111
+test,2875,125

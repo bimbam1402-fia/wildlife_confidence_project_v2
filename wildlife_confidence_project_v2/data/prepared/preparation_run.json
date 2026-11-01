@@ -1,0 +1,30 @@
+{
+  "all_clean_events": 180961,
+  "annotation_records": 245118,
+  "cameras": 133,
+  "experiment_id": "five_categories_camera_balanced_v2",
+  "image_level_excluded": 77,
+  "manifest_sha256": "84e159670e0a297f7bbaf7f6dfaabc118b35f18c81067533bbf4addaaeb15cd9",
+  "metadata_sha256": "976bd9bc9380df7a03018ac70b5340bd2ff81d79a99271058f026a539450d1d6",
+  "metadata_url": "https://storage.googleapis.com/public-datasets-lila/caltechcameratraps/labels/caltech_camera_traps.json.zip",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "preview_failures": [],
+  "preview_requested": false,
+  "python": "3.11.16",
+  "raw_images": 243100,
+  "seed": 42,
+  "selected_class_events": 26378,
+  "selected_classes": [
+    "coyote",
+    "deer",
+    "fox",
+    "rabbit",
+    "skunk"
+  ],
+  "sequence_level_excluded": 47,
+  "source_population": "five known categories, one image per unambiguous trigger sequence",
+  "split_protocol": "camera_stratified_event_v2",
+  "split_sha256": "5d65707544cdafe9ae2208ca745623e4b1713c13a5e363ba902800963510f9fb",
+  "stage": "01_event_first_camera_split_v2"
+}

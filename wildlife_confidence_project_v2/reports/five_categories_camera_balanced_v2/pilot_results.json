@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "c2dd4abab6d3ffa1bad287dc84d808ab6b54c36dc5ed1d79b4dc8ac86259966b",
+  "reason": "RUN_PILOT=False",
+  "status": "not_run",
+  "subset_sha256": "354af48bc70f501a89490b28f961fe3c20b8a81967ebf966b4a785333cee8676",
+  "time_utc": "2026-10-31T16:30:36.831082+00:00",
+  "torch_version": "2.14.0+cu130",
+  "torchvision_version": "0.29.0+cu130"
+}

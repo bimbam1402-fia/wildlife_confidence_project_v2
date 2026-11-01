@@ -1,0 +1,6 @@
+split,images,events,cameras
+train,4570,4570,64
+validation,1500,1500,13
+calibration,1500,1500,13
+policy,1500,1500,13
+test,3000,3000,28

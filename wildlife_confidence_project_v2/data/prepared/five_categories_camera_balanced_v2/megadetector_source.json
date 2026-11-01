@@ -1,0 +1,22 @@
+{
+  "archive_sha256": "6caba6a78795a24320e83697fab40cd7dd527a245ae1810611ca704696cf20b6",
+  "detection_categories": {
+    "1": "animal",
+    "2": "person",
+    "3": "vehicle"
+  },
+  "entry_count": 244584,
+  "info": {
+    "detection_completion_time": "2022-08-01 21:13:54",
+    "detector": "md_v5a.0.0.pt",
+    "detector_metadata": {
+      "conservative_detection_threshold": 0.05,
+      "megadetector_version": "v5a.0.0",
+      "typical_detection_threshold": 0.2
+    },
+    "format_version": 1.3
+  },
+  "local_inference_performed": false,
+  "rde_applied": false,
+  "url": "https://lila.science/public/lila-md-results/caltech-camera-traps_mdv5a.0.0_results.json.zip"
+}

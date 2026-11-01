@@ -1,0 +1,16 @@
+{
+  "class_to_idx": {
+    "coyote": 0,
+    "deer": 1,
+    "fox": 2,
+    "rabbit": 3,
+    "skunk": 4
+  },
+  "classes": [
+    "coyote",
+    "deer",
+    "fox",
+    "rabbit",
+    "skunk"
+  ]
+}

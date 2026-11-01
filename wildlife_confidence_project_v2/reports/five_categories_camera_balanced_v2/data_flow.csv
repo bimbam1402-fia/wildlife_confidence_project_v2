@@ -1,0 +1,6 @@
+split,eligible_events_after_notebook01,selected_events_after_camera_sampling,verified_image_files
+train,13565,4570,4570
+validation,2149,1500,1500
+calibration,2408,1500,1500
+policy,2332,1500,1500
+test,5924,3000,3000

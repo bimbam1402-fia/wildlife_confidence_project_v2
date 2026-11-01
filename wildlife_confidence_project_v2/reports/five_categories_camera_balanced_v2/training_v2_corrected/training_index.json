@@ -1,0 +1,164 @@
+{
+  "all_planned_runs_complete": true,
+  "camera_split_sha256": "5d65707544cdafe9ae2208ca745623e4b1713c13a5e363ba902800963510f9fb",
+  "classes": [
+    "coyote",
+    "deer",
+    "fox",
+    "rabbit",
+    "skunk"
+  ],
+  "completed_runs": [
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "2f300227184123de8a615267dbb34a22399dd84448d3d206e3026d0363d4867b",
+      "exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "093f797416bda28bab61558b5353fa0958df9395611fa0d463ccd68f15ac3f06"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "2094505398ecfec2aaf50027de6d05dbda0d2034b9f74718be62984fc7bb9a48"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "629cbff7972ec717420ee0b41926cdd443377cbbeb8a5b9638179cbf1837e15f"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "run_relative_path": "models/five_categories_camera_balanced_v2/training_v2_corrected/mobilenet_v3_large_seed42",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "a6432ef4dd63008923dd039193d741200cddc2f8ffaa6a3d91c84e7ed71903eb",
+      "exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "53ea981aeff3171f90caf855995da1c18e418c251325740989c78ef9f4ef65fb"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "6e6b85daa4a88f6a050a6912982f495324bcdd431e2b5751f4194aacafa23fd1"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "4b5232ec5581d4d57795e2ca4a527bd8d42025997f0d4baad3554edef9c74bde"
+        }
+      },
+      "model": "efficientnet_b0",
+      "run_relative_path": "models/five_categories_camera_balanced_v2/training_v2_corrected/efficientnet_b0_seed42",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "head"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "5727173c2c3f7f494b56b62a8a27e72fd9bf7a82013d762131d495d50e42e8e4",
+      "exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "7ac3795671b9444c8bc7c21ebedbd607309e45ee9a4d2c5db9395fd4422acd3e"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "d6b2842ee76af3118837fc48771fc7e3d561d7e07b6fabc70d28bd7ee34c5b4f"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1ae6482fc1ccdf8729097aa9725677d1596cf1c91cab203c69ea4fc605676efa"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "run_relative_path": "models/five_categories_camera_balanced_v2/training_v2_corrected/mobilenet_v3_large_seed123",
+      "seed": 123,
+      "selected_epoch": 5,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "82a3ea96be0af1721ed12f0e0b11069693656397cbd0367d33268434e47504fd",
+      "exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "0b76327a5f31aed47bc72f112254d6d4b645cb6e33db8e20670c0e96abdca1f2"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "d6dc995fa3fe4329ce8220752534a6118ce23e3b9b9657ec420dd3b1198b6a38"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1c7b5e1d99e3946638e58d607d014b1c079fadb42869c880c7b0caf16514b93b"
+        }
+      },
+      "model": "efficientnet_b0",
+      "run_relative_path": "models/five_categories_camera_balanced_v2/training_v2_corrected/efficientnet_b0_seed123",
+      "seed": 123,
+      "selected_epoch": 4,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "4e252156de470912ced37e18b2c65fbe417bb2e9bdba923b1878f496fa339863",
+      "exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "5cb066420be2362c578e4486b07f28aacc90743ec01a10592b30a4d570695eac"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "90940149be433dcfcc73366bb6265e24b8b935d57b3b8cd5a4aa4d55ba9c6136"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "8df032f1ce2e84e380993004a9a01b24ec2c30e580fa77f3b3f0759cc8ed6ff8"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "run_relative_path": "models/five_categories_camera_balanced_v2/training_v2_corrected/mobilenet_v3_large_seed2026",
+      "seed": 2026,
+      "selected_epoch": 2,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "c571a2e873817f5298ce3b06961f6376d0159c1bbd4584971b5833fa6528afa0",
+      "exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "5ebf00d765b02cf3618c384629bbf957d81d5f2fed368a2ce4c604c8e71ae8e8"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "de55e0ccfa379db0d674f255d77759802eb06f8229c1fa3312a74df318ca8a4b"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "3a9c4d1fcac650c77925cca75f2f2a8e31dda6f020bd965e6c09c0fdab0d7478"
+        }
+      },
+      "model": "efficientnet_b0",
+      "run_relative_path": "models/five_categories_camera_balanced_v2/training_v2_corrected/efficientnet_b0_seed2026",
+      "seed": 2026,
+      "selected_epoch": 1,
+      "selected_stage": "finetune"
+    }
+  ],
+  "experiment_id": "five_categories_camera_balanced_v2",
+  "planned_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "protocol_sha256": "c2dd4abab6d3ffa1bad287dc84d808ab6b54c36dc5ed1d79b4dc8ac86259966b",
+  "selection_protocol_sha256": "2efde71bb734eeafe31c29d8d8c65b3c3340216f7bd9bf564f40180b657e6614",
+  "subset_sha256": "354af48bc70f501a89490b28f961fe3c20b8a81967ebf966b4a785333cee8676",
+  "test_predictions_computed": false,
+  "time_utc": "2026-10-31T20:54:09.136277+00:00",
+  "training_id": "training_v2_corrected",
+  "training_sha256": "71342e9f1c8029c8c17e30474306ed6a7a68fc1a125ba50f73ff4a0e5e4db0dd"
+}

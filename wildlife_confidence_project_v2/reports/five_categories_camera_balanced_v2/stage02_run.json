@@ -1,0 +1,22 @@
+{
+  "experiment_id": "five_categories_camera_balanced_v2",
+  "manual_quality_failures": 0,
+  "manual_quality_review_complete": false,
+  "pilot_status": "not_run",
+  "process_scope": "all",
+  "protocol_sha256": "c2dd4abab6d3ffa1bad287dc84d808ab6b54c36dc5ed1d79b4dc8ac86259966b",
+  "readiness": {
+    "cross_split_duplicate_rows": 0,
+    "detector_results_source": "official_precomputed_MegaDetector_v5a.0.0",
+    "local_detector_inference_performed": false,
+    "pilot_ready": true,
+    "planned_images": 12070,
+    "protocol_sha256": "c2dd4abab6d3ffa1bad287dc84d808ab6b54c36dc5ed1d79b4dc8ac86259966b",
+    "ready_for_final_training": true,
+    "subset_sha256": "354af48bc70f501a89490b28f961fe3c20b8a81967ebf966b4a785333cee8676",
+    "time_utc": "2026-10-31T16:30:23.634061+00:00",
+    "verified_images": 12070
+  },
+  "subset_sha256": "354af48bc70f501a89490b28f961fe3c20b8a81967ebf966b4a785333cee8676",
+  "time_utc": "2026-10-31T16:30:36.916053+00:00"
+}

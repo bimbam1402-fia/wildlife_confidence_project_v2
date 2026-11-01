@@ -1,0 +1,39 @@
+{
+  "class_to_idx": {
+    "coyote": 0,
+    "deer": 1,
+    "fox": 2,
+    "rabbit": 3,
+    "skunk": 4
+  },
+  "classes": [
+    "coyote",
+    "deer",
+    "fox",
+    "rabbit",
+    "skunk"
+  ],
+  "evaluation_budgets": {
+    "calibration": 1500,
+    "policy": 1500,
+    "test": 3000,
+    "validation": 1500
+  },
+  "experiment_id": "five_categories_camera_balanced_v2",
+  "input_sha256": {
+    "camera_split.json": "5d65707544cdafe9ae2208ca745623e4b1713c13a5e363ba902800963510f9fb",
+    "event_manifest_all_categories.csv": "0f70e0c87315a21e81bcad598466fa0e396c2282c7dc7fb44337b7f07e40f06c",
+    "excluded_images.csv": "f16e4887cd472d9c5e5b0465417597dc33f2062e3d8e372aa46bcb10f8da0953",
+    "excluded_sequences.csv": "061d3c264d8901c1b17f9123289f1e29ec9fa77f99b502de3430425e26aa40d7",
+    "image_manifest.csv": "84e159670e0a297f7bbaf7f6dfaabc118b35f18c81067533bbf4addaaeb15cd9",
+    "preparation_run.json": "7695339fe98d5b7b933a5558e49f181a1c7d1162f148b17b03dfbabaeb24930d"
+  },
+  "max_evaluation_camera_share": 0.2,
+  "max_train_camera_class_share": 0.3,
+  "min_selected_evaluation_category_events": 40,
+  "sampling_rule": "train class+camera caps; validation/calibration/policy per-camera cap; test uniform event sample",
+  "selection_seed": 42,
+  "selection_version": 2,
+  "sequence_rule": "events cleaned and representative frames chosen before splitting in Notebook 01 v2",
+  "train_per_class_cap": 1200
+}
