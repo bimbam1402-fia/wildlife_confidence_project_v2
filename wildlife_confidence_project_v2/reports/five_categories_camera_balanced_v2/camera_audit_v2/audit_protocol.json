@@ -1,0 +1,197 @@
+{
+  "decisions_sha256": "74cf956e0564444a1c87a6eac7eb76c1dd129dcbb8f1c756d3f171ba51068058",
+  "experiment_id": "five_categories_camera_balanced_v2",
+  "manifest_sha256": "88cbfab4f50c23796949d17a15a5eea8fdbd8609fe4d24cb8e3dfd34f88a361f",
+  "parent_completion_sha256": "936fac32388313d9c1a7e13d03ff3f04a7c15f24f660743efeff48532b9b4b50",
+  "parent_evaluation_sha256": "a0f684269a251ad27ae629b067cbcf7ee910ecadfe466268878a75a86fd0c979",
+  "primary_gain_table_sha256": "0fb2f2d55567a084ec60cc7a65fb6616ca29ca2a07dfab63f0917368bc94616b",
+  "selected_runs": [
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "2f300227184123de8a615267dbb34a22399dd84448d3d206e3026d0363d4867b",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "093f797416bda28bab61558b5353fa0958df9395611fa0d463ccd68f15ac3f06"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "2094505398ecfec2aaf50027de6d05dbda0d2034b9f74718be62984fc7bb9a48"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "629cbff7972ec717420ee0b41926cdd443377cbbeb8a5b9638179cbf1837e15f"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "a6432ef4dd63008923dd039193d741200cddc2f8ffaa6a3d91c84e7ed71903eb",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "53ea981aeff3171f90caf855995da1c18e418c251325740989c78ef9f4ef65fb"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "6e6b85daa4a88f6a050a6912982f495324bcdd431e2b5751f4194aacafa23fd1"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "4b5232ec5581d4d57795e2ca4a527bd8d42025997f0d4baad3554edef9c74bde"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "head"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "5727173c2c3f7f494b56b62a8a27e72fd9bf7a82013d762131d495d50e42e8e4",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "7ac3795671b9444c8bc7c21ebedbd607309e45ee9a4d2c5db9395fd4422acd3e"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "d6b2842ee76af3118837fc48771fc7e3d561d7e07b6fabc70d28bd7ee34c5b4f"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1ae6482fc1ccdf8729097aa9725677d1596cf1c91cab203c69ea4fc605676efa"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 123,
+      "selected_epoch": 5,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "82a3ea96be0af1721ed12f0e0b11069693656397cbd0367d33268434e47504fd",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "0b76327a5f31aed47bc72f112254d6d4b645cb6e33db8e20670c0e96abdca1f2"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "d6dc995fa3fe4329ce8220752534a6118ce23e3b9b9657ec420dd3b1198b6a38"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1c7b5e1d99e3946638e58d607d014b1c079fadb42869c880c7b0caf16514b93b"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 123,
+      "selected_epoch": 4,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "4e252156de470912ced37e18b2c65fbe417bb2e9bdba923b1878f496fa339863",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "5cb066420be2362c578e4486b07f28aacc90743ec01a10592b30a4d570695eac"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "90940149be433dcfcc73366bb6265e24b8b935d57b3b8cd5a4aa4d55ba9c6136"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "8df032f1ce2e84e380993004a9a01b24ec2c30e580fa77f3b3f0759cc8ed6ff8"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 2026,
+      "selected_epoch": 2,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "c571a2e873817f5298ce3b06961f6376d0159c1bbd4584971b5833fa6528afa0",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "5ebf00d765b02cf3618c384629bbf957d81d5f2fed368a2ce4c604c8e71ae8e8"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "de55e0ccfa379db0d674f255d77759802eb06f8229c1fa3312a74df318ca8a4b"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "3a9c4d1fcac650c77925cca75f2f2a8e31dda6f020bd965e6c09c0fdab0d7478"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 2026,
+      "selected_epoch": 1,
+      "selected_stage": "finetune"
+    }
+  ],
+  "settings": {
+    "analysis_status": "v2_camera_sensitivity_existing_predictions",
+    "audit_version": 2,
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 20261026,
+    "ece_bins": 15,
+    "gain_direction": "raw minus scaled; positive means calibration improves loss",
+    "interaction_direction": "EfficientNet gain minus MobileNet gain; positive favours EfficientNet",
+    "primary_gain_metric": "nll",
+    "small_camera_flag_below": 30
+  },
+  "test_exports": [
+    {
+      "file": "models/five_categories_camera_balanced_v2/evaluation_v2/mobilenet_v3_large_seed42_test_logits.npz",
+      "model": "mobilenet_v3_large",
+      "seed": 42,
+      "sha256": "47b73420ed2076d4b25dccee454d0de1a468e47f74e22aa952b97dfcbb434ffc"
+    },
+    {
+      "file": "models/five_categories_camera_balanced_v2/evaluation_v2/efficientnet_b0_seed42_test_logits.npz",
+      "model": "efficientnet_b0",
+      "seed": 42,
+      "sha256": "99a258e5dae0e187d1016d335edfbb7251543f13f382a70ec9693998ed3fa33b"
+    },
+    {
+      "file": "models/five_categories_camera_balanced_v2/evaluation_v2/mobilenet_v3_large_seed123_test_logits.npz",
+      "model": "mobilenet_v3_large",
+      "seed": 123,
+      "sha256": "bd357f003f0b3916bf644c1462e8770903039ee0a1504b6fd5d6e9e113fc1c03"
+    },
+    {
+      "file": "models/five_categories_camera_balanced_v2/evaluation_v2/efficientnet_b0_seed123_test_logits.npz",
+      "model": "efficientnet_b0",
+      "seed": 123,
+      "sha256": "09041b4f5c0b5473b616b2be5652221a323c5b29660e41936c433d05c3092740"
+    },
+    {
+      "file": "models/five_categories_camera_balanced_v2/evaluation_v2/mobilenet_v3_large_seed2026_test_logits.npz",
+      "model": "mobilenet_v3_large",
+      "seed": 2026,
+      "sha256": "3343084fa216475488b815412ca5bb240a4b20147d2842d36a5e886d3fc6cb2d"
+    },
+    {
+      "file": "models/five_categories_camera_balanced_v2/evaluation_v2/efficientnet_b0_seed2026_test_logits.npz",
+      "model": "efficientnet_b0",
+      "seed": 2026,
+      "sha256": "23428241cb9f5ea9beedbdf6f9fc7399a575c56405ae016c7336872288d13761"
+    }
+  ],
+  "training_id": "training_v2_corrected",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "python": "3.11.16"
+  }
+}

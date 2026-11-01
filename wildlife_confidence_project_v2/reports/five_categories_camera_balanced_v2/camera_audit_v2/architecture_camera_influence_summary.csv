@@ -1,0 +1,3 @@
+weighting,cameras,full_test_difference,minimum_omitted_camera_difference,maximum_omitted_camera_difference,sign_flips,direction_changes,sign_flip_camera_ids
+equal_camera,28,0.0024825171634745846,-0.007612465074713359,0.007247122880571499,2,2,"[""69"", ""73""]"
+image,28,-0.00569891148514895,-0.008159328007748379,-0.002736708393845988,0,0,[]

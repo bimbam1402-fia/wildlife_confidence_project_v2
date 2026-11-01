@@ -1,0 +1,4 @@
+comparison,metric,matched,parent_estimate,audit_estimate,ci_low,ci_high,valid_replicates,total_replicates
+mobilenet_v3_large NLL gain (raw minus scaled; mean seeds),nll,True,0.0111048527819844,0.011104852781984273,-0.004422138227625346,0.04621635869518207,2000,2000
+efficientnet_b0 NLL gain (raw minus scaled; mean seeds),nll,True,0.0054059412968353,0.005405941296835397,-0.005535161959010066,0.029376476143536546,2000,2000
+EfficientNet NLL gain minus MobileNet NLL gain (mean paired seeds),nll,True,-0.005698911485149,-0.005698911485148876,-0.02194247822384458,0.001813439593311575,2000,2000
